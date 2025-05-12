@@ -1,4 +1,4 @@
-ffunction mincost(arr) {
+function mincost(arr) {
     // Min heap using simple array with sorting
     let heap = [...arr].sort((a, b) => a - b); // initialize min-heap
 
